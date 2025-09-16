@@ -4,7 +4,7 @@
 Predict which employees are at high risk of leaving the company using Python, Pandas, Scikit-learn, and Streamlit.
 This tool helps HR teams make data-driven decisions to improve employee retention. ✨
 
-#🔍 Features
+🔍 Features
 
 Dataset includes 100+ employee records with:
 
@@ -70,7 +70,3 @@ Add more features: training, promotions, feedback scores ✨
 Use advanced models: XGBoost, LightGBM 💡
 
 Deploy app online: Heroku / Streamlit Cloud 🌐
-
-
-
-GitHub
