@@ -1,75 +1,80 @@
 # Employee-Attrition-Performance
-📌 Project Overview
+📌 Overview
 
-This project predicts employee attrition — identifying employees at high risk of leaving the company. It is built using Python, Pandas, Scikit-learn, and Streamlit for an interactive web interface. The goal is to help HR departments proactively manage employee retention.
+Predict which employees are at high risk of leaving the company using Python, Pandas, Scikit-learn, and Streamlit.
+This tool helps HR teams make data-driven decisions to improve employee retention. ✨
 
 🔍 Features
 
-The dataset contains 100+ employee records with the following features:
+Dataset includes 100+ employee records with:
 
 Feature	Description
-EmployeeID	Unique identifier for each employee
-Age	Age of the employee
+EmployeeID	Unique ID for each employee
+Age	Employee age
 Gender	Male/Female
-Department	Employee department (IT, HR, Sales, Finance, R&D)
-JobRole	Job title (Developer, Manager, Analyst, etc.)
-Education	Education level (1–5)
-YearsAtCompany	Years of experience in the company
-MonthlyIncome	Monthly salary of the employee
-JobSatisfaction	Job satisfaction level (1–4)
-WorkLifeBalance	Work-life balance rating (1–4)
-Overtime	Whether the employee works overtime (Yes/No)
-NumCompaniesWorked	Number of previous companies
-PerformanceRating	Performance rating (1–5)
-Attrition	Target variable: Yes/No (whether employee left)
-🛠 Tools and Technologies
+Department	IT, HR, Sales, Finance, R&D
+JobRole	Developer, Manager, Analyst, etc.
+Education	Level (1–5)
+YearsAtCompany	Experience in company
+MonthlyIncome	Salary
+JobSatisfaction	1–4 scale
+WorkLifeBalance	1–4 scale
+Overtime	Yes/No
+NumCompaniesWorked	Previous companies
+PerformanceRating	1–5 scale
+Attrition	Target: Yes/No ✅
+🛠 Tech Stack
 
-Programming Language: Python
+Python 🐍
 
 Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 
-Web App: Streamlit for interactive predictions
+Web App: Streamlit 🌐
 
-Modeling: Logistic Regression / Random Forest (or your model)
+Model: Logistic Regression / Random Forest 🌲
 
-🚀 How to Run the Project
-1. Clone the repository
-git clone <your-repo-link>
+🚀 How to Run
+# Clone repo
+git clone <repo-link>
 cd <repo-folder>
 
-2. Install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-3. Run the Streamlit app
+# Run Streamlit app
 streamlit run employee.py
 
-4. View the app
 
-Open the URL provided in the terminal (usually http://localhost:8501)
+Open the URL in your terminal (http://localhost:8501)
 
-Upload a CSV file or input employee details to get attrition predictions.
+Upload CSV or input employee details to get attrition predictions 📊
 
 📈 Model Performance
 
-Accuracy: 82%
+Accuracy: 82% ✅
 
-Model predicts the likelihood of employee leaving based on their features.
-
-Features like JobSatisfaction, Overtime, and YearsAtCompany are highly influential.
+Key features influencing attrition: JobSatisfaction, Overtime, YearsAtCompany
 
 📂 Dataset
 
-The sample dataset employee_attrition_sample.csv is included in the repository.
+Sample CSV: employee_attrition_sample.csv included
 
-For real-world projects, you can use the IBM HR Analytics Employee Attrition dataset from Kaggle
-.
+For real-world data: IBM HR Analytics Dataset (Kaggle)
 
 📝 Future Improvements
 
-Increase dataset size for better model accuracy.
+Increase dataset size 📊
 
-Add more employee-related features (training, promotion history, feedback scores).
+Add more features: training, promotions, feedback scores ✨
 
-Implement advanced models like XGBoost or LightGBM.
+Use advanced models: XGBoost, LightGBM 💡
 
-Deploy the app on Heroku or Streamlit Cloud for public access.
+Deploy app online: Heroku / Streamlit Cloud 🌐
+
+👤 Author
+
+Kothuri Abhiram
+
+LinkedIn
+
+GitHub
